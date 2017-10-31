@@ -2,3 +2,47 @@
 /*CSS reference for Google Fonts*/
 /*font-family: 'Spicy Rice', cursive;*/
 /*font-family: 'Poppins', sans-serif;*/
+
+.jumbotron{
+    text-align: center;
+    font-family: 'Spicy Rice';
+    margin: auto;
+    max-width: 75%;
+    background-color: #FCF7C7;
+    opacity: .9;
+}
+
+.lead{
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+
+body{
+    font-family: 'Poppins';
+    background-image: url(../images/green_cup.png);
+    margin:auto;
+    padding: 40px;
+}
+.intro{
+    width: 100%;
+    margin: auto;
+    max-width: 700px;
+    background-color: #FCF7C7;
+    opacity: .9;
+}
+
+.zookeep{
+    opacity: .9;
+    background-color: #FCF7C7;
+    padding: 15px;
+}
+
+.hangManBox{
+    width: 60%;
+    margin: auto;
+    background-color: #FCF7C7;
+    padding: 20px;
+    text-align: center;
+    opacity: .9;
+    
+}
