@@ -13,9 +13,6 @@
         
         <!--Link to CSS StyleSheet-->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        
-        <!--Link to JavaScript-->
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
     </head>
     <body>
         <div class="row">
@@ -52,19 +49,21 @@
             <div col-sm-6>
                 <div class="row game">
                     <div class="col-md-6 rounded border border-secondary hangManBox">
-                        <p id="word">_ _ _ _ _ _</p>
-                        <p id="swamp"></p>
+                       <p>Mystery Word:</p>
+                        <p id="mysteryWord"> </p>
                     </div>
                     <div class="col-md-1">
                     </div>
                     <div class="col-md-5 rounded border border-secondary hangManBox">
-                        <p id="word">_ _ _ _ _ _</p>
+                        <p>Swamp Letters:</p>
                         <p id="swamp"></p>
                     </div>
                 </div>
             </div>
         </div>
-        
+    
+    <!--Link to JavaScript-->
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
         
     <!--JQuery, Popper.js, Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
