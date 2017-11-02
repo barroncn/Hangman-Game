@@ -17,8 +17,8 @@
     <body>
         <div class="row">
             <div class="col-xs-12 jumbotron rounded-circle border border-secondary">
-              <h1 class="display-3">Hangman</h1>
-              <h1 class="font-italic ">at the <big>ZOO!</big></h1>
+              <h1 class="display-3"> Hangman </h1>
+              <h1 class="font-italic"> at the <big>ZOO!</big></h1>
               <hr>
               <p class="lead">Can you guess the correct animal?</p>
             </div> 
@@ -26,23 +26,32 @@
         
         <br>
         
-        <div class="row">
+        <div class="row mainContent">
             <div col-sm-6>
                 <div class="row intro rounded border border-secondary">
-                    <div class="col-s-7">
-                        <p class="text-center lead">Click any button to get started!</p>
-                        <hr>
-                        <ul>
-                           <li>You can guess up to 10 letters each game</li>
-                           <li>The swamp will keep track of the letters guessed</li>
-                        </ul> 
+                    <div class="col-s-7" id="start">
+                        <div class="row">
+                            <div class="col-xs-12" id="directions">
+                                <p class="text-center">Guess any letter to get started!</p>
+                                <hr>
+                                <ul>
+                                   <li><p>You can guess up to 15 letters 
+                                          <br>each game</p></li>
+                                   <li><p>The swamp keeps track of 
+                                          <br>incorrect guesses</p></li>
+                                </ul> 
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-xs-12" id = "score">
+                            </div>
+                        </div>                       
                     </div>
-            
                     <div class="col-s-1">
                     </div>
-            
+
                     <div class="col-s-4">
-                        <img class="zookeep rounded float-right" src="assets/images/zookeeper.jpeg"></img>
+                        <img class="zookeep rounded" src="assets/images/zookeeper.jpeg"></img>
                     </div>
                 </div>
             </div>
@@ -50,7 +59,7 @@
                 <div class="row game">
                     <div class="col-md-6 rounded border border-secondary hangManBox">
                        <p>Mystery Word:</p>
-                        <p id="mysteryWord"> </p>
+                        <p id="mysteryWord" class="needSpaces"> </p>
                     </div>
                     <div class="col-md-1">
                     </div>
@@ -62,12 +71,12 @@
             </div>
         </div>
     
-    <!--Link to JavaScript-->
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
-        
+    
     <!--JQuery, Popper.js, Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    </body>
+    <!--Link to JavaScript-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
 </html>

@@ -7,7 +7,7 @@
     text-align: center;
     font-family: 'Spicy Rice';
     margin: auto;
-    max-width: 75%;
+    max-width: 800px;
     background-color: #FCF7C7;
     opacity: .9;
 }
@@ -22,27 +22,50 @@ body{
     background-image: url(../images/green_cup.png);
     margin:auto;
     padding: 40px;
+    width: 100%;
+}
+.mainContent{
+    text-align: center;
+    margin-left: 40px;
 }
 .intro{
     width: 100%;
-    margin: auto;
-    max-width: 700px;
+    min-width: 600px;
+    margin-left: 40px;
+    margin-right: 15px;
     background-color: #FCF7C7;
     opacity: .9;
+    padding: 30px;
 }
 
 .zookeep{
+    margin: 25px;
     opacity: .9;
     background-color: #FCF7C7;
     padding: 15px;
 }
 
 .hangManBox{
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    height:150px;
+    margin: 10px 10px 10px 50px;
     background-color: #FCF7C7;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     opacity: .9;
     
 }
+
+.needSpaces{
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+#directions{
+    min-width: 50px;
+}
+
+#score{
+    text-indent: 30px;
+}
+
