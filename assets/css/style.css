@@ -27,6 +27,7 @@ body{
 }
 .mainContent{
     margin: auto;
+    width:100%;
 }
 .intro{
     width: 90%;

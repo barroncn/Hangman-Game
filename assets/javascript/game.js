@@ -35,7 +35,7 @@ for (var i = 0; i < theWord.length; i++) {
 document.onkeyup = function(event) {
    var yourGuess = event.key.toUpperCase();
    if (alphabet.indexOf(yourGuess, 0) !== (-1)){
-        for (var j = 0; j < theWord.length; j++) {
+        for (var j = 0; j < (theWord.length + 1); j++) {
             // If the letter matches, blanksWord will be set to equal the string of characters before the position of the underscore 
             // that needs to be replaced + the letter guessed + the string of characters after the replacement. Then it puts the new
             // blanksWord in the webpage
@@ -45,7 +45,7 @@ document.onkeyup = function(event) {
             }
             
             // Once the computer checks the whole loop for a match, the letter is added to the "swamp"
-            else if (j == (theWord.length-1)) {
+            else if (j == (theWord.length)) {
                 document.getElementById("swamp").innerHTML += yourGuess;
             }
         }
