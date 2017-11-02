@@ -6,8 +6,9 @@
 .jumbotron{
     text-align: center;
     font-family: 'Spicy Rice';
-    margin: auto;
-    max-width: 800px;
+    margin:auto;
+    width: 70%;
+    max-width: 650px;
     background-color: #FCF7C7;
     opacity: .9;
 }
@@ -25,30 +26,29 @@ body{
     width: 100%;
 }
 .mainContent{
-    text-align: center;
-    margin-left: 40px;
+    margin: auto;
 }
 .intro{
-    width: 100%;
+    width: 90%;
     min-width: 600px;
-    margin-left: 40px;
-    margin-right: 15px;
+    margin: auto;
     background-color: #FCF7C7;
     opacity: .9;
     padding: 30px;
 }
 
 .zookeep{
-    margin: 25px;
+    margin: 10px;
     opacity: .9;
     background-color: #FCF7C7;
-    padding: 15px;
+    padding: 5px;
 }
 
 .hangManBox{
-    width: 100%;
-    height:150px;
-    margin: 10px 10px 10px 50px;
+    min-width: 80%;
+    min-height:150px;
+    margin: 20px;
+    margin-left:30px;
     background-color: #FCF7C7;
     padding: 40px;
     text-align: center;
@@ -63,9 +63,16 @@ body{
 
 #directions{
     min-width: 50px;
+    margin: 10px;
+    
 }
 
 #score{
+    font-weight: bolder;
     text-indent: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    min-height: 125px;
+    text-align: left;
 }
 

@@ -55,9 +55,9 @@ document.onkeyup = function(event) {
         alphabet.splice(removeMe, 1);
         JguessesLeft --;
         var html =
-          "<p>Wins: " + Jwins + "</p>" +
-          "<p>Losses: " + Jlosses + "</p>" +
-          "<p>Guesses Left: " + Math.max(0,JguessesLeft) + "</p>";
+          "<p>Wins:  " + Jwins + "</p>" +
+          "<p>Losses:  " + Jlosses + "</p>" +
+          "<p>Guesses Left:  " + Math.max(0,JguessesLeft) + "</p>";
         document.getElementById("score").innerHTML = html;
         
         // If the blanks word has been fully guessed
@@ -110,21 +110,30 @@ document.onkeyup = function(event) {
                 "Z" ];
             document.getElementById("swamp").innerHTML = "";
             }
+            
+        }
+        if(wordChoices.length === 0){
+            wordChoices = ["GORILLA", "KANGAROO", "KOALA", "OCELOT", "BEAR", "OTTER", "PYTHON", "ELEPHANT", "LION", "TIGER", "JAGUAR", "GIRAFFE", "CHEETAH", "HYENA", "BUTTERFLY",
+                  "CHIMPANZEE", "MONKEY", "SNAKE", "LIZARD", "IGUANA", "RHINO", "MOOSE", "DEER", "WOLF", "APE", "RABBIT", "FLAMINGO", "EAGLE", "LEEMUR", "MEERKAT",
+                  "HEDGEHOG", "GOPHUR", "ORANGUTAN"];
         }
     }
     
 };  
+
+
+
+
+
+
+
+
+
+
    
 //   // This keeps the user from getting the same word choice twice.
 //         var alsoRemoveMe = wordChoices.indexOf(theWord);
 //         wordChoices.splice(alsoRemoveMe, 1);
-
-
-
-
-
-
-
 
 // alphabet.splice(alphabet.indexOf(e.key), 1)
 
