@@ -1,4 +1,4 @@
-Hangman Game
+# Hangman Game
 
 [Check it out here!](https://barroncn.github.io/Hangman-Game/)
 
